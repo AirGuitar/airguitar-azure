@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-US">
+ <!--<![endif]-->
+<head>
+    <!-- Meta Tags -->
+    <title>AirGuitar</title>
+    <meta name="description" content="AirGuitar is a digital guitar pedal service that allows you to customize your sound, record your music, and share your tunes." />
+    <!-- Mobile Specifics -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="320" />
+    <!-- End Mobile Specifics -->
+    <!-- End Meta Tags -->
+    <!-- Mobile Internet Explorer ClearType Technology -->
+    <!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+    <!-- Bootstrap -->
+    <link href="~/Assets/Public/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Main Style -->
+    <link href="~/Assets/Public/css/main.css" rel="stylesheet" />
+
+    <!-- Supersized -->
+    <link href="~/Assets/Public/css/supersized.css" rel="stylesheet" />
+    <link href="~/Assets/Public/css/supersized.shutter.css" rel="stylesheet" />
+
+    <!-- FancyBox -->
+    <link href="~/Assets/Public/css/fancybox/jquery.fancybox.css" rel="stylesheet" />
+
+    <!-- Font Icons -->
+    <link href="~/Assets/Public/css/fonts.css" rel="stylesheet" />
+
+    <!-- Shortcodes -->
+    <link href="~/Assets/Public/css/shortcodes.css" rel="stylesheet" />
+
+    <!-- Responsive -->
+    <link href="~/Assets/Public/css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link href="~/Assets/Public/css/responsive.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link href="~/Assets/Public/css/custom.css" rel="stylesheet" />
+
+    <!-- Google Font -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css' /> -->
+    <link href='~/Assets/Public/css/google-fonts.css' rel="stylesheet" type='text/css' />
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="~/ohno.html#" />
+    <link rel="apple-touch-icon" href="~/ohno.html#" />
+    <link rel="apple-touch-icon" sizes="114x114" href="~/ohno.html#" />
+    <link rel="apple-touch-icon" sizes="72x72" href="~/ohno.html#" />
+    <link rel="apple-touch-icon" sizes="144x144" href="~/ohno.html#" />
+    <!-- Modernizr -->
+    <script src="~/Assets/Public/js/modernizr.js"></script>
+    <!-- Analytics -->
+    <!-- End Analytics -->
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div class="ole">
+        <section id="jSplash">
+            <div id="circle"></div>
+        </section>
+    </div>
+    <!-- End of Splash Screen -->
+    <!-- Homepage Slider -->
+    <div id="home-slider">
+        <div class="overlay">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <div class="slider-text">
+                        <div id="slidecaption"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="control-nav">
+            <a id="prevslide" class="load-item">
+                <i class="font-icon-arrow-simple-left"></i>
+            </a>
+            <a id="nextslide" class="load-item">
+                <i class="font-icon-arrow-simple-right"></i>
+            </a>
+            <ul id="slide-list"></ul>
+            <a id="nextsection" href="#work" class="bg-orange">
+                <i class="font-icon-arrow-simple-down"></i>
+            </a>
+        </div>
+    </div>
+    <!-- End Homepage Slider -->
+    <!-- Header -->
+    <header class="ag-orange">
+        <div class="sticky-nav">
+            <a id="mobile-nav" class="menu-nav" href="~/ohno.html#">
+            </a>
+
+            <div id="logo">
+                <a id="goUp" href="#home-slider" title="AirGuitar | Guitar Pedals on the Cloud">
+                </a>
+            </div>
+
+            <nav id="menu">
+                <ul id="menu-nav">
+                    <li>
+                        <a href="#home-slider">Home</a>
+                    </li>
+                    <li>
+                        <a href="#work">Our Work</a>
+                    </li>
+                    <li>
+                        <a href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#subscribe">Subscribe</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="~/ohno.html#">Try AirGuitar</a>
+                    </li>
+                    <li>
+                        <a href="~/ohno.html#">Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    @RenderBody()
+    
+    <!-- Footer -->
+    <div id="social-area" class="page bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <nav id="social">
+                        <ul>
+                            <li><a href="~/ohno.html#" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                            <li><a href="~/ohno.html#" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                            <li><a href="~/ohno.html#" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                            <li><a href="~/ohno.html#" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-gray">
+        <p class="credits">&copy;2015 AirGuitar.</p>
+    </footer>
+    <!-- End Footer -->
+    <!-- Back To Top -->
+    <a id="back-to-top" href="#">
+        <i class="font-icon-arrow-simple-up"></i>
+    </a>
+    <!-- End Back to Top -->
+    <!-- Other JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.12/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script> <!-- Google Map API -->
+    <script src="~/Assets/Public/js/map.js"></script>
+    <script src="~/Assets/Public/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+    <script src="~/Assets/Public/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+    <script src="~/Assets/Public/js/waypoints.js"></script> <!-- WayPoints -->
+    <script src="~/Assets/Public/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+    <script src="~/Assets/Public/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+    <script src="~/Assets/Public/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+    <script src="~/Assets/Public/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+    <script src="~/Assets/Public/js/jquery.tweet.js"></script> <!-- Tweet -->
+    <script src="~/Assets/Public/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+    <script src="~/Assets/Public/js/main.js"></script> <!-- Default JS -->
+    <!-- End Other JS -->
+</body>
+</html>

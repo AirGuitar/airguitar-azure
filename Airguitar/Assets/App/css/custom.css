@@ -1,0 +1,83 @@
+/* here you can put your own css to customize and override the theme */
+
+.body-content {
+    min-height: inherit;
+}
+
+
+/* Sampe Layout */
+.img-selected {
+    background-color: #FFD700 !important;
+}
+
+.male {
+    background: url("/Assets/temp/img/male.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+}
+
+.female {
+    background: url("/Assets/temp/img/female.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+}
+
+.ui-tooltip-blue ui-tooltip-shadow {
+    background: red;
+}
+
+#overview {
+    width: 450px;
+    height: 586px;
+    position: relative;
+    background-size: cover;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border: 2px solid;
+}
+
+@media screen and (max-width:767px) {
+    #overview {
+        width: 300px;
+        height: 391px;
+        position: relative;
+        background-size: cover;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+        border: 2px solid;
+    }
+
+    .male {
+        background: url("/content/images/sample/male_sm.png") no-repeat scroll left center transparent;
+    }
+
+    .female {
+        background: url("/content/images/sample/female_sm.png") no-repeat scroll left center transparent;
+    }
+}
+
+.more32 span {
+    background-color: #34495e;
+    width: 150px;
+    text-align: center;
+    padding: 0px;
+    font-weight: normal;
+    position: absolute;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+#dtMgmtRpt th {
+}
+
+
+.btn-default {
+    color: black !important;
+    border-color: black !important;
+}
+
+    .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+        color: #fff !important;
+        background-color: #81b71a;
+        border-color: #81b71a;
+        -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+        transition: border .25s linear, color .25s linear, background-color .25s linear;
+    }
